@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class SectionE{
     
     private int people_count, defects, important_defects, less_important_defects, inspection_time,
-                inspection_prep_time, lines_of_code, inspection_efficiency, avg_salary; 
+                inspection_prep_time, lines_of_code, avg_salary; 
 
     Scanner in = new Scanner(System.in);
     
@@ -119,14 +119,6 @@ public class SectionE{
 
     public void setLines_of_code(int lines_of_code) {
         this.lines_of_code = lines_of_code;
-    }
-
-    public int getEfficiency() {
-        return inspection_efficiency;
-    }
-
-    public void setEfficiency(int efficiency) {
-        this.inspection_efficiency = efficiency;
     }
 
     public int getAvg_salary() {
