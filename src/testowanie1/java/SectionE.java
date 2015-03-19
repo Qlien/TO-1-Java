@@ -12,4 +12,11 @@ package testowanie1.java;
  */
 public class SectionE {
     
+    private int defects, important_defects, less_important_defects, inspection_time,
+                inspection_prep_time, efficiency, avg_salary; 
+    
+    public SectionE()
+    {
+        
+    }
 }
